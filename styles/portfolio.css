@@ -32,8 +32,8 @@
 }
 
 .btn:hover{
-    background-color: #934509;
-    color: rgb(170, 240, 101);
+    background-color: #9c5825;
+    color: rgb(255, 255, 255);
 }
 
 .section-heading{
@@ -88,6 +88,11 @@ nav .menu li a{
     font-size: 20px;
     color: #474747;
     text-decoration: none;
+}
+
+nav .menu li a:hover{
+    color: #FD6E0A;
+    padding: auto;
 }
 
 #banner{
