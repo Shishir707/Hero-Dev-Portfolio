@@ -326,7 +326,8 @@ footer {
 
     .skill-box,
     #about .about-container .about-info,
-    #footer .footer-container {
+    #footer .footer-container,
+    #resume .resume-container {
         flex-direction: column;
     }
 
@@ -349,6 +350,14 @@ footer {
 
     #about .about-container .about-info {
         gap: 40px;
+    }
+
+    #resume .resume-container {
+        margin-top: 60px;
+    }
+
+    .resume-card {
+        margin-right: 10px;
     }
 
 
