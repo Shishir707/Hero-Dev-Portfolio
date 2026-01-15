@@ -324,11 +324,12 @@ footer {
         font-size: 30px;
     }
 
-    .skill-box {
+    .skill-box,
+    #about .about-container .about-info {
         flex-direction: column;
     }
 
-    .skill-box .skill-card{
+    .skill-box .skill-card {
         max-width: 100%;
     }
 
@@ -339,5 +340,15 @@ footer {
     #resume {
         padding-top: 60px;
     }
+
+    #about .about-container {
+        padding: 20px;
+    }
+
+
+    #about .about-container .about-info {
+        gap: 40px;
+    }
+
 
 }
