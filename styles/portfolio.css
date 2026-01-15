@@ -132,6 +132,12 @@ nav .menu li a:hover {
     vertical-align: middle;
 }
 
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 
 #about,
 #skills,
@@ -328,16 +334,43 @@ footer {
         gap: 20px;
     }
 
-    nav .menu{
+    nav .menu {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    #banner {
+        gap: 20px;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #banner .banner-image img{
+        width: 100%;
+    }
+
+    #banner .banner-content h1{
+        font-size: 44px;
+    }
+
+    .btn-group{
+        justify-content: center;
+    }
+
+    header {
+    background-color: #fff8f3;
+    background: url(../images/header_bg.png), #fff8f3;
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
 
     .skill-box,
     #about .about-container .about-info,
     #footer .footer-container,
     #resume .resume-container,
-    nav {
+    nav,
+    #banner {
         flex-direction: column;
     }
 
