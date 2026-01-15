@@ -324,10 +324,20 @@ footer {
         font-size: 30px;
     }
 
+    nav {
+        gap: 20px;
+    }
+
+    nav .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .skill-box,
     #about .about-container .about-info,
     #footer .footer-container,
-    #resume .resume-container {
+    #resume .resume-container,
+    nav {
         flex-direction: column;
     }
 
